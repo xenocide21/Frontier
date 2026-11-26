@@ -91,7 +91,7 @@ content. All of them run on a PC with Python 3.
 | `tools/galaxy` | Generates the galaxy (`src/galaxy_data.c/.h`) and a map picture |
 | `tools/audio` | Synthesizes every instrument and effect, compiles the music (`songs.py`) and encodes it all to SPU ADPCM (`src/audio_data.c/.h`). Needs NumPy and SciPy |
 | `tools/shipgen` | Builds the ships as low-poly 3D models in Blender and converts the renders to PS1 sprites and models |
-| `tools/artgen` | The title logo and the font |
+| `tools/artgen` | The title logo and the font, and `logo_print.py` for a print-size logo |
 | `tools/preview` | A PC build of the game that renders frames to images and records its audio to a WAV, driven by scripted button presses. Run `tools/preview/build.sh`; see the top of `host.c` for its options |
 
 ## Repository layout
@@ -101,6 +101,8 @@ content. All of them run on a PC with Python 3.
 | `src/` | The game: flight, combat, AI, docking, trade, galaxy, fleet, missions, story, the Veyr, audio, saves |
 | `tools/` | The content and test tools above |
 | `docs/DEVNOTES.md` | The development log: what each milestone added and what to test |
+| `docs/art/` | Concept art for the ships, the cover art and a print-size logo (see its README) |
+| `docs/Frontier_Ship_Classes.odt`, `docs/veyr_and_syndicate_notes.txt` | The ship classes document and the design notes on the Veyr and the Syndicates |
 | `DESIGN_NOTES.md`, `PILOTS.md` | Design notes and the premade pilots' texts |
 | `iso.xml`, `system.cnf` | The disc layout and boot file |
 
