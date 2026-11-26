@@ -1,0 +1,11 @@
+build/
+__pycache__/
+*.pyc
+# disc images and build output
+*.bin
+*.cue
+*.iso
+*.exe
+*.elf
+# never commit a console BIOS
+SCPH*.BIN
